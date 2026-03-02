@@ -5,8 +5,8 @@
 #define OLC_PGE_APPLICATION
 #include "olcPixelGameEngine.h"
 
-const cXyz wallB = { 9060.82617, 0, -2181.70850};
 const cXyz wallA = {9320.65625, 0,  -1810.63269};
+const cXyz wallB = { 9060.82617, 0, -2181.70850};
 const cXyz wallN = {0.819152, 0,  -0.573577};
 
 double cam_x = wallA.x;
