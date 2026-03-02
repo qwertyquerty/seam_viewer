@@ -81,9 +81,9 @@ public:
             }
         }
 
-        DrawStringDecal({20, 20}, std::format("Zoom: {}x", zoom), olc::CYAN, {2, 2});
-        DrawStringDecal({20, 40}, std::format("Camera: {:.6f},{:.6f}", cam_x, cam_z), olc::CYAN, {2, 2});
-        DrawStringDecal({20, 60}, std::format("Hover: {:.6f},{:.6f}", mx, mz), olc::CYAN, {2, 2});
+        DrawStringDecal({10, 10}, std::format("Zoom: {}x", zoom), olc::CYAN, {2, 2});
+        DrawStringDecal({10, 30}, std::format("Camera: {:.6f},{:.6f}", cam_x, cam_z), olc::CYAN, {2, 2});
+        DrawStringDecal({10, 50}, std::format("Hover: {:.6f},{:.6f}", mx, mz), olc::CYAN, {2, 2});
 
 		return true;
 	}
