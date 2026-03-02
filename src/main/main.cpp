@@ -5,12 +5,12 @@
 #define OLC_PGE_APPLICATION
 #include "olcPixelGameEngine.h"
 
-const cXyz wallA = { -800, 0, -3425};
-const cXyz wallB =  {800, 0, -3425};
-const cXyz wallN = {0, 0,  1};
+const cXyz wallB = { 9060.82617, 0, -2181.70850};
+const cXyz wallA = {9320.65625, 0,  -1810.63269};
+const cXyz wallN = {0.819152, 0,  -0.573577};
 
-double cam_x = 0;
-double cam_z = -3425;
+double cam_x = wallA.x;
+double cam_z = wallA.z;
 
 double zoom = 1.0;
 
